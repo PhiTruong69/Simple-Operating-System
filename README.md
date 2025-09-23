@@ -1,6 +1,6 @@
 ## Giới thiệu
 
-#Đây là một dự án mô phỏng hệ điều hành đơn giản, dự án tập trung vào các thành phần cốt lõi của một OS, bao gồm:
+Đây là một dự án mô phỏng hệ điều hành đơn giản, dự án tập trung vào các thành phần cốt lõi của một OS, bao gồm:
 
 Quản lý tiến trình (Process Management)
 
