@@ -1,4 +1,4 @@
-<h1 align="center">🧠 Simple Operating System Simulation — CO2018 Assignment</h1>
+<h1 align="center">Simple Operating System Simulation </h1>
 
 <p align="center">
   <em>Simulation of a simplified Operating System featuring Scheduler, Synchronization, and Paging-based Memory Management.</em><br/>
@@ -8,7 +8,7 @@
 
 <hr/>
 
-<h2>🎯 Objective</h2>
+<h2> Objective</h2>
 <p>
 This assignment simulates core mechanisms of a simple Operating System (OS), including process scheduling,
 synchronization, and virtual-to-physical memory management. The goal is to help students understand
@@ -17,9 +17,9 @@ how an OS manages CPU and RAM through scheduling algorithms and paging-based mem
 
 <hr/>
 
-<h2>🧩 Core Components</h2>
+<h2> Core Components</h2>
 
-<h3>1️⃣ Scheduler (Multi-Level Queue)</h3>
+<h3> Scheduler (Multi-Level Queue)</h3>
 <ul>
   <li>Implements <strong>Multi-Level Queue (MLQ)</strong> scheduling policy similar to Linux kernel.</li>
   <li>Each ready queue represents a specific priority level.</li>
@@ -27,7 +27,7 @@ how an OS manages CPU and RAM through scheduling algorithms and paging-based mem
   <li>Supports preemption and time-slicing using virtual timer interrupts.</li>
 </ul>
 
-<h3>2️⃣ Memory Management (Paging-based Virtual Memory)</h3>
+<h3> Memory Management (Paging-based Virtual Memory)</h3>
 <ul>
   <li>Implements <strong>paging memory system</strong> with per-process virtual address space.</li>
   <li>Supports both <strong>data segment</strong> (static allocation) and <strong>heap segment</strong> (dynamic allocation).</li>
@@ -37,7 +37,7 @@ how an OS manages CPU and RAM through scheduling algorithms and paging-based mem
   <li>Implements swapping between RAM and SWAP devices for memory overcommitment.</li>
 </ul>
 
-<h3>3️⃣ Synchronization</h3>
+<h3> Synchronization</h3>
 <ul>
   <li>Ensures safe access to shared resources (e.g., queues, memory structures).</li>
   <li>Protects critical sections using locks to avoid race conditions in multiprocessor environments.</li>
@@ -46,7 +46,7 @@ how an OS manages CPU and RAM through scheduling algorithms and paging-based mem
 <hr/>
 
 
-<h2>📂 Project Structure</h2>
+<h2> Project Structure</h2>
 
 <pre>
 📦 simple-os
@@ -69,7 +69,7 @@ how an OS manages CPU and RAM through scheduling algorithms and paging-based mem
 
 <hr/>
 
-<h2>📈 Key Results</h2>
+<h2>Key Results</h2>
 <ul>
   <li>Scheduler correctly distributes processes across multiple CPUs using MLQ.</li>
   <li>Paging engine successfully isolates process address spaces and handles page faults/swaps.</li>
@@ -78,7 +78,7 @@ how an OS manages CPU and RAM through scheduling algorithms and paging-based mem
 
 <hr/>
 
-<h2>🧠 Learning Outcomes</h2>
+<h2> Learning Outcomes</h2>
 <ul>
   <li>Understand the working principles of CPU scheduling and process management.</li>
   <li>Gain insights into virtual memory translation and paging mechanisms.</li>
@@ -87,7 +87,7 @@ how an OS manages CPU and RAM through scheduling algorithms and paging-based mem
 
 <hr/>
 
-<h2>📚 References</h2>
+<h2> References</h2>
 <ul>
   <li>CO2018 Assignment Description — Faculty of CSE, HCMUT (2024)</li>
   <li>Linux Kernel Documentation — Process Scheduling & Paging Mechanisms</li>
